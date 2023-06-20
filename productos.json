@@ -1,0 +1,490 @@
+[  
+  {
+    "ID": "DESPENSA-ARROZ",
+    "PRODUCTO": "ARROZ",
+    "PRECIO": 1890,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-FIDEOS",
+    "PRODUCTO": "FIDEOS",
+    "PRECIO": 1050,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-ACEITE VEGETAL",
+    "PRODUCTO": "ACEITE VEGETAL",
+    "PRECIO": 2090,
+    "UNIDAD": "LT",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-AZÚCAR",
+    "PRODUCTO": "AZÚCAR",
+    "PRECIO": 1350,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-SAL",
+    "PRODUCTO": "SAL",
+    "PRECIO": 480,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "LACTEOS-LECHE",
+    "PRODUCTO": "LECHE",
+    "PRECIO": 940,
+    "UNIDAD": "LT",
+    "CATEGORIA": "LACTEOS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-PAN",
+    "PRODUCTO": "PAN",
+    "PRECIO": 990,
+    "UNIDAD": "UD",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CARNES-HUEVOS",
+    "PRODUCTO": "HUEVOS",
+    "PRECIO": 260,
+    "UNIDAD": "UD",
+    "CATEGORIA": "CARNES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CARNES-POLLO",
+    "PRODUCTO": "POLLO",
+    "PRECIO": 8000,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CARNES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CARNES-RES",
+    "PRODUCTO": "RES",
+    "PRECIO": 7000,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CARNES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CARNES-CERDO",
+    "PRODUCTO": "CERDO",
+    "PRECIO": 7200,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CARNES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CARNES-PESCADO",
+    "PRODUCTO": "PESCADO",
+    "PRECIO": 7800,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CARNES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-ATUN",
+    "PRODUCTO": "ATUN",
+    "PRECIO": 1350,
+    "UNIDAD": "UD",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "FRUTAS-MANZANA",
+    "PRODUCTO": "MANZANA",
+    "PRECIO": 1290,
+    "UNIDAD": "KG",
+    "CATEGORIA": "FRUTAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "FRUTAS-NARANJA",
+    "PRODUCTO": "NARANJA",
+    "PRECIO": 2290,
+    "UNIDAD": "KG",
+    "CATEGORIA": "FRUTAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "FRUTAS-PLATANO",
+    "PRODUCTO": "PLATANO",
+    "PRECIO": 1000,
+    "UNIDAD": "KG",
+    "CATEGORIA": "FRUTAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "FRUTAS-UVAS",
+    "PRODUCTO": "UVAS",
+    "PRECIO": 4380,
+    "UNIDAD": "KG",
+    "CATEGORIA": "FRUTAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "VEGETALES-TOMATES",
+    "PRODUCTO": "TOMATES",
+    "PRECIO": 1850,
+    "UNIDAD": "KG",
+    "CATEGORIA": "VEGETALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "VEGETALES-PAPAS",
+    "PRODUCTO": "PAPAS",
+    "PRECIO": 2500,
+    "UNIDAD": "KG",
+    "CATEGORIA": "VEGETALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "VEGETALES-CEBOLLAS",
+    "PRODUCTO": "CEBOLLAS",
+    "PRECIO": 1650,
+    "UNIDAD": "KG",
+    "CATEGORIA": "VEGETALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "VEGETALES-ZANAHORIAS",
+    "PRODUCTO": "ZANAHORIAS",
+    "PRECIO": 1190,
+    "UNIDAD": "KG",
+    "CATEGORIA": "VEGETALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "LACTEOS-YOGUR",
+    "PRODUCTO": "YOGUR",
+    "PRECIO": 200,
+    "UNIDAD": "UD",
+    "CATEGORIA": "LACTEOS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "LACTEOS-QUESO",
+    "PRODUCTO": "QUESO",
+    "PRECIO": 13000,
+    "UNIDAD": "KG",
+    "CATEGORIA": "LACTEOS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "LACTEOS-MANTEQUILLA",
+    "PRODUCTO": "MANTEQUILLA",
+    "PRECIO": 9560,
+    "UNIDAD": "KG",
+    "CATEGORIA": "LACTEOS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "LACTEOS-MARGARINA",
+    "PRODUCTO": "MARGARINA",
+    "PRECIO": 5000,
+    "UNIDAD": "KG",
+    "CATEGORIA": "LACTEOS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-HARINA",
+    "PRODUCTO": "HARINA",
+    "PRECIO": 1150,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-MERMELADA",
+    "PRODUCTO": "MERMELADA",
+    "PRECIO": 4600,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CEREALES-CEREAL MAIZ",
+    "PRODUCTO": "CEREAL MAIZ",
+    "PRECIO": 10540,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CEREALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CEREALES-AVENA",
+    "PRODUCTO": "AVENA",
+    "PRECIO": 4560,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CEREALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "CEREALES-GRANOLA",
+    "PRODUCTO": "GRANOLA",
+    "PRECIO": 7590,
+    "UNIDAD": "KG",
+    "CATEGORIA": "CEREALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-CAFÉ",
+    "PRODUCTO": "CAFÉ",
+    "PRECIO": 5300,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-TÉ",
+    "PRODUCTO": "TÉ",
+    "PRECIO": 9580,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-OREOS",
+    "PRODUCTO": "OREOS",
+    "PRECIO": 710,
+    "UNIDAD": "PQT",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-CLUB SOCIAL",
+    "PRODUCTO": "CLUB SOCIAL",
+    "PRECIO": 1650,
+    "UNIDAD": "PQT",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "VEGETALES-ACEITUNAS",
+    "PRODUCTO": "ACEITUNAS",
+    "PRECIO": 5700,
+    "UNIDAD": "KG",
+    "CATEGORIA": "VEGETALES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-SALSA DE TOMATE",
+    "PRODUCTO": "SALSA DE TOMATE",
+    "PRECIO": 2408,
+    "UNIDAD": "KG",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-SALSA DE SOJA",
+    "PRODUCTO": "SALSA DE SOJA",
+    "PRECIO": 2490,
+    "UNIDAD": "LT",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-VINAGRE",
+    "PRODUCTO": "VINAGRE",
+    "PRECIO": 3500,
+    "UNIDAD": "LT",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-MAYONESA",
+    "PRODUCTO": "MAYONESA",
+    "PRECIO": 3388,
+    "UNIDAD": "KG",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-MOSTAZA",
+    "PRODUCTO": "MOSTAZA",
+    "PRECIO": 5714,
+    "UNIDAD": "KG",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-KETCHUP",
+    "PRODUCTO": "KETCHUP",
+    "PRECIO": 3611,
+    "UNIDAD": "KG",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-BARBEQUE",
+    "PRODUCTO": "BARBEQUE",
+    "PRECIO": 6500,
+    "UNIDAD": "KG",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-JUGO DE NARANJA",
+    "PRODUCTO": "JUGO DE NARANJA",
+    "PRECIO": 900,
+    "UNIDAD": "LT",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-REFRESCOS",
+    "PRODUCTO": "REFRESCOS",
+    "PRECIO": 996,
+    "UNIDAD": "LT",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-AGUA EMBOTELLADA",
+    "PRODUCTO": "AGUA EMBOTELLADA",
+    "PRECIO": 500,
+    "UNIDAD": "LT",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-CERVEZA",
+    "PRODUCTO": "CERVEZA",
+    "PRECIO": 910,
+    "UNIDAD": "UD",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-VINO TINTO",
+    "PRODUCTO": "VINO TINTO",
+    "PRECIO": 6333,
+    "UNIDAD": "LT",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-ESPUMANTE",
+    "PRODUCTO": "ESPUMANTE",
+    "PRECIO": 6520,
+    "UNIDAD": "LT",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "BEBIDAS-VINO BLANCO",
+    "PRODUCTO": "VINO BLANCO",
+    "PRECIO": 6386,
+    "UNIDAD": "LT",
+    "CATEGORIA": "BEBIDAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-DORITOS",
+    "PRODUCTO": "DORITOS",
+    "PRECIO": 3240,
+    "UNIDAD": "PQT",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-LAYS",
+    "PRODUCTO": "LAYS",
+    "PRECIO": 3090,
+    "UNIDAD": "PQT",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-LECHE CONDENSADA",
+    "PRODUCTO": "LECHE CONDENSADA",
+    "PRECIO": 1790,
+    "UNIDAD": "UD",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-CHOCOLATE",
+    "PRODUCTO": "CHOCOLATE",
+    "PRECIO": 22600,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-MANJAR",
+    "PRODUCTO": "MANJAR",
+    "PRECIO": 3890,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-HELADO",
+    "PRODUCTO": "HELADO",
+    "PRECIO": 2950,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-OREGANO",
+    "PRODUCTO": "OREGANO",
+    "PRECIO": 820,
+    "UNIDAD": "UD",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-PIMIENTA",
+    "PRODUCTO": "PIMIENTA",
+    "PRECIO": 530,
+    "UNIDAD": "UD",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DULCES-CARAMELOS",
+    "PRODUCTO": "CARAMELOS",
+    "PRECIO": 7466,
+    "UNIDAD": "PQT",
+    "CATEGORIA": "DULCES",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-LAUREL",
+    "PRODUCTO": "LAUREL",
+    "PRECIO": 520,
+    "UNIDAD": "UD",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "SALSAS-MANTEQUILLA DE MANÍ",
+    "PRODUCTO": "MANTEQUILLA DE MANÍ",
+    "PRECIO": 4950,
+    "UNIDAD": "KG",
+    "CATEGORIA": "SALSAS",
+    "CANTIDAD": 1
+  },  
+  {
+    "ID": "DESPENSA-MIEL",
+    "PRODUCTO": "MIEL",
+    "PRECIO": 8590,
+    "UNIDAD": "KG",
+    "CATEGORIA": "DESPENSA",
+    "CANTIDAD": 1
+  }
+]

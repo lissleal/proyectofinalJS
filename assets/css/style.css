@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../../fondo.png); }
+  body .listaImprimir {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px; }
+  body h1 {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'Architects Daughter', cursive; }
+  body .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 20px; }
+    body .main .divFormularios {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px; }
+      body .main .divFormularios .formulario {
+        background-color: bisque;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 10px; }
+        body .main .divFormularios .formulario .inputMenu {
+          border-radius: 5px;
+          height: 30px;
+          width: 100px;
+          background-color: white;
+          font-family: 'Poppins', sans-serif; }
+        body .main .divFormularios .formulario .boton {
+          background-color: #D680D6;
+          color: white;
+          border-radius: 5px;
+          padding: 5px;
+          font-family: 'Poppins', sans-serif; }
+    body .main .divCategorias {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px; }
+      body .main .divCategorias .divCategoria {
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 800px; }
+        body .main .divCategorias .divCategoria h3 {
+          background-color: antiquewhite;
+          padding: 10px;
+          font-family: 'Architects Daughter', cursive;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; }
+        body .main .divCategorias .divCategoria .lista {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          background-color: white;
+          padding: 10px; }
+          body .main .divCategorias .divCategoria .lista .productito {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; }
+            body .main .divCategorias .divCategoria .lista .productito p {
+              font-family: 'Poppins', sans-serif;
+              text-align: center; }
+            body .main .divCategorias .divCategoria .lista .productito div .botonesEliminar {
+              background-color: #DB5D31;
+              color: white;
+              padding: 3px;
+              width: 20px;
+              border-radius: 2px; }
+            body .main .divCategorias .divCategoria .lista .productito div .botonesRestar {
+              background-color: #EDB451;
+              padding: 3px;
+              border-radius: 2px;
+              color: white;
+              width: 20px; }
+            body .main .divCategorias .divCategoria .lista .productito div .botonesSumar {
+              background-color: #50b447;
+              padding: 3px;
+              border-radius: 2px;
+              color: white;
+              width: 20px; }
+    body .main .botonImprimir {
+      background-color: #D680D6;
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+      padding: 10px;
+      font-family: 'Poppins', sans-serif; }

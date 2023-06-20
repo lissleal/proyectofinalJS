@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Proyecto Leal</title>
+</head>
+<body>
+    <header>
+        <h1>Crea tu Lista de Compras</h1>
+    </header>    
+        
+    <!-- MENU -->
+    <main class="main">
+        <div class="divFormularios">
+            <p>Selecciona el producto que desees</p>
+            <form id="formulario" class="formulario">
+                <select class="inputMenu" id="selectOpciones">
+                </select>
+                <select class="inputMenu" id="selectProducto">
+                    <option value="">Producto</option>
+                </select>  
+               <input type="submit" id="botonCategoria" for="formulario" value="Agregar Producto" class="boton">
+            </form>
+            <p>O agrega uno nuevo</p>
+
+            <form id="formularioNuevo" class="formulario">
+                <input class="inputMenu" type="text" id="inputNombreNuevo" placeholder="Nombre">
+                <input class="inputMenu" type="number" min="1" id="inputPrecioNuevo" placeholder="Precio">
+                <input class="inputMenu" type="number" min="1" id="inputCantidadNuevo" placeholder="Cantidad">
+                <input class="inputMenu" type="text" id="inputUnidadNuevo" placeholder="Unidad">
+                <input class="inputMenu" type="text" id="inputCategoriaNuevo" placeholder="Categoria">
+                <input type="submit" id="botonCategoriaNuevo" for="formularioNuevo" value="Agregar Producto" class="boton">
+            </form>
+            
+        </div>        
+        <!-- CATEGORIAS -->
+        <form id="divCategorias" class="divCategorias" > 
+            <div class="divCategoria">
+                <h3>
+                    <p class="titulo">Cantidad</p>
+                    <p class="titulo">Unidad</p>
+                    <p class="titulo">Nombre</p>
+                    <p class="titulo">Precio/Ud</p>
+                    <p class="titulo">Total</p>
+                    <p class="titulo">Editar</p>
+
+                </h3>
+                <ul class="lista" id="lista"> 
+                    
+                </ul>
+            </div>
+            
+        </form>
+        <input type="submit" id="botonImprimir" value="Imprimir Lista" class="botonImprimir">
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
