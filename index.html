@@ -15,16 +15,17 @@
     <!-- MENU -->
     <main class="main">
         <div class="divFormularios">
-            <p>Selecciona el producto que desees</p>
+            <p class="titulo-division">Busca el producto que deseas comprar según su categoria. <br> Agrégalo a tu lista pulsando "Agregar Producto"</p>
             <form id="formulario" class="formulario">
                 <select class="inputMenu" id="selectOpciones">
+                    <option value="">Categorias</option>
                 </select>
                 <select class="inputMenu" id="selectProducto">
                     <option value="">Producto</option>
                 </select>  
                <input type="submit" id="botonCategoria" for="formulario" value="Agregar Producto" class="boton">
             </form>
-            <p>O agrega uno nuevo</p>
+            <p class="titulo-division">¿Tu producto no está en las opciones? <br> Ingresa los datos y pulsa "Agregar Producto Nuevo"</p>
 
             <form id="formularioNuevo" class="formulario">
                 <input class="inputMenu" type="text" id="inputNombreNuevo" placeholder="Nombre">
@@ -32,11 +33,14 @@
                 <input class="inputMenu" type="number" min="1" id="inputCantidadNuevo" placeholder="Cantidad">
                 <input class="inputMenu" type="text" id="inputUnidadNuevo" placeholder="Unidad">
                 <input class="inputMenu" type="text" id="inputCategoriaNuevo" placeholder="Categoria">
-                <input type="submit" id="botonCategoriaNuevo" for="formularioNuevo" value="Agregar Producto" class="boton">
+                <input type="submit" id="botonCategoriaNuevo" for="formularioNuevo" value="Agregar Producto Nuevo" class="boton">
             </form>
             
         </div>        
         <!-- CATEGORIAS -->
+
+        <p class="titulo-division">Revisa tu lista de productos <br> Con los botones ⬆️⬇️ puedes editar las cantidades <br> Con el botón ❌ eliminas los productos</p>
+
         <form id="divCategorias" class="divCategorias" > 
             <div class="divCategoria">
                 <h3>
@@ -54,8 +58,17 @@
             </div>
             
         </form>
+        <p class="titulo-division">¿Ya estas listo? Imprime tu lista</p>
+
         <input type="submit" id="botonImprimir" value="Imprimir Lista" class="botonImprimir">
+        <p class="titulo-division">¡Que tengas buenas compras!</p>
+
     </main>
+
+    <footer>
+        <p>Página realizada con fines educativos</p>
+        <p>Derechos Reservados Lissett Leal 2023</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./main.js"></script>

@@ -2,7 +2,6 @@
 const opcionesCategorias = document.getElementById("selectOpciones")
 const opcionesProductos = document.getElementById("selectProducto")
 const formulario = document.getElementById("formulario");
-const precio = document.getElementById("precioProducto");
 const lista = document.getElementById("lista");
 const botonImprimir = document.getElementById("botonImprimir");
 const formularioNuevo = document.getElementById("formularioNuevo");
@@ -160,7 +159,7 @@ function agregarProductoNuevo (e) {
             icon: 'error',
             title: 'Error',
             text: 'Parece que te faltan algunos datos',
-            footer: 'Asegurate de ingresar nombre, categoria y valores numéricos válidos'
+            footer: 'Asegúrate de ingresar nombre, categoria y valores numéricos válidos'
           })
       return;
     }
@@ -173,7 +172,7 @@ function agregarProductoNuevo (e) {
             icon: 'error',
             title: 'Error',
             text: 'El producto ya existe',
-            footer: 'Agregalo desde el panel de categorias'
+            footer: 'Agrégalo desde el panel de categorias o aumenta su cantidad directamente en la lista'
           })
         formularioNuevo.reset();
     }else{
@@ -204,9 +203,9 @@ function imprimirProductos(){
         <p class="">${element.precio}</p>
         <p class="">${element.cantidad*element.precio}</p>
         <div>
-        <button id="${element.id}" class="botonesSumar">+</button>
-        <button id="${element.id}" class="botonesRestar">-</button>
-        <button id="${element.id}" class="botonesEliminar">X</button>
+        <button id="${element.id}" class="botonesSumar">⬆️</button>
+        <button id="${element.id}" class="botonesRestar">⬇️</button>
+        <button id="${element.id}" class="botonesEliminar">❌</button>
         </div>
                         `
         lista.appendChild(li);
@@ -270,13 +269,13 @@ function confirmarLista(){
     //uso un reduce para calcular el total del monto necesario
     const total = arrayProductos.reduce((acc, elemento)=>{
         return acc + elemento.cantidad * elemento.precio
-    }, 0);
+    }, 0).toLocaleString();
     //Uso un alert para indicarle al usuario el resumen de su lista y si la desea imprimir
     Swal.fire({
         title: '<strong>Terminaste tu Lista de Compras</strong>',
         icon: 'success',
         html:
-          'Para comprar todos tus productos necesitas: ' + total + " pesos",
+          'Para comprar todos tus productos necesitas: <br> $ ' + total,
         showCloseButton: true,
         showCancelButton: true,
         confirmButtonText:

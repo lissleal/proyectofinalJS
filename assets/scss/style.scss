@@ -21,6 +21,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     background-image: url(../../fondo.png);
+    background-position: center top;
 
     .listaImprimir{
         display: flex;
@@ -36,6 +37,10 @@ body {
         text-align: center;
         border: 2px solid black;
         font-family: 'Architects Daughter', cursive;
+    }
+    .titulo-division {
+        color: white;
+        font-size: 20px;        
     }
     .main {
         display: grid;
@@ -105,26 +110,9 @@ body {
                             text-align: center;
                         }
                         div{
-                            .botonesEliminar{
-                                background-color: #DB5D31;
-                                color: white;
-                                padding: 3px;
-                                width: 20px;
-                                border-radius: 2px;
-                            }
-                            .botonesRestar{
-                                background-color: #EDB451;
-                                padding: 3px;
-                                border-radius: 2px;
-                                color: white;
-                                width: 20px;
-                            }
-                            .botonesSumar{
-                                background-color: #50b447;
-                                padding: 3px;
-                                border-radius: 2px;
-                                color: white;
-                                width: 20px;
+                            .botonesEliminar, .botonesRestar, .botonesSumar 
+                            { font-size: 20px;
+                                background-color: transparent;          
                             }
                         }
                     }
@@ -141,6 +129,10 @@ body {
             padding: 10px;
             font-family: 'Poppins', sans-serif;
         }
+    }
+    footer {
+        background-color: bisque;
+        width: 100%;
     }
 }
 
