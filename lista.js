@@ -10,7 +10,7 @@ const total = arrayProductos.reduce((acc, elemento)=>{
     return acc + elemento.cantidad * elemento.precio
 }, 0).toLocaleString();
 
-//Creo los elementos en el dom
+//Envio los elementos al html
 const titulo = document.createElement("h2")
 titulo.innerText= `Total dinero a llevar: $ ${total}`
 listaDefinitiva.appendChild(titulo)

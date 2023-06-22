@@ -1,3 +1,5 @@
+//Lista de Compras
+
 /******Vinculo HTML con JS *******/
 const opcionesCategorias = document.getElementById("selectOpciones")
 const opcionesProductos = document.getElementById("selectProducto")
@@ -5,7 +7,6 @@ const formulario = document.getElementById("formulario");
 const lista = document.getElementById("lista");
 const botonImprimir = document.getElementById("botonImprimir");
 const formularioNuevo = document.getElementById("formularioNuevo");
-
 
 //Creo una clase para crear las categorias
 class Categoria {
@@ -30,7 +31,7 @@ class Producto {
 let arrayCategorias = [];
 let arrayProductos = [];
 
-//Recuperar datos del storage
+/**********Recuperar datos del storage *********/
 let productosTraidosDeStorageEnJson = localStorage.getItem("productos");
 let productosTraidosDeStorage = JSON.parse(productosTraidosDeStorageEnJson);
 
@@ -38,18 +39,7 @@ let productosTraidosDeStorage = JSON.parse(productosTraidosDeStorageEnJson);
 revisarStorage();
 imprimirProductos();
 
-//Iniciar variables segun storage
-function revisarStorage(){
-    arrayProductos = productosTraidosDeStorage ?? arrayProductos;
-  }
-
-//Actualizar storage
-function actualizarStorage(){
-    const productosParaEnviarStorageEnJson = JSON.stringify(arrayProductos);
-    localStorage.setItem("productos", productosParaEnviarStorageEnJson);
-  }
-
-//Uso fetch para traer mi lista de posibles productos
+//Uso fetch para traer mi lista de posibles productos desde archivo Json
 const url = "./productos.json";
 fetch(url)
     .then(response => response.json())
@@ -58,14 +48,21 @@ fetch(url)
         crearOpciones();  
     })
 
-
-
 /************** FUNCIONES *************/
 
-//Filtrar los datos la API simulada y crear arraycategorias
+//Función para iniciar variables segun storage
+function revisarStorage(){
+    arrayProductos = productosTraidosDeStorage ?? arrayProductos;
+  }
+
+//Funcion para Actualizar storage
+function actualizarStorage(){
+    const productosParaEnviarStorageEnJson = JSON.stringify(arrayProductos);
+    localStorage.setItem("productos", productosParaEnviarStorageEnJson);
+  }
+
+//Filtrar los datos la API simulada y llenar arraycategorias
 function crearCategorias(data) {
-    //Creo un array de categorias vacio 
-    arrayCategorias = [];
     data.forEach((producto) => {
         const categoriaExistente = arrayCategorias.find((categoria) => 
         categoria.nombre === producto.CATEGORIA);
@@ -91,7 +88,7 @@ function crearOpciones() {
     }
 }
 
-//Segun la categoria selecionada se crean las opciones de productos
+//Según la categoria selecionada se crean las opciones de productos
 function crearProductos(){
     opcionesProductos.innerHTML=``;
     const value = opcionesCategorias.value;
@@ -191,8 +188,10 @@ function agregarProductoNuevo (e) {
 
 //Funcion para mostrar productos elegidos en pantalla
 function imprimirProductos(){
+    //Borro lo que esta en pantalla para que no se duplique
     lista.innerHTML = [];
     revisarStorage();
+    //Recorro el array creo un li por cada producto
     arrayProductos.forEach(element => {
         const li = document.createElement("li");
         li.className = "productito";
@@ -283,6 +282,7 @@ function confirmarLista(){
          cancelButtonText:
            'Seguir Editando'
       }).then((result)=>{
+        //Si confirma lo envío la pagina de impresion
         if(result.isConfirmed){
             window.open("./lista.html", "_self");            
         }
